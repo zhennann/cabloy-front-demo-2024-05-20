@@ -1,0 +1,51 @@
+{
+  "name": "@cabloy/front-quasar",
+  "version": "5.0.65",
+  "description": "A vue3 quasar framework with ioc",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "zhennann <zhen.nann@icloud.com>",
+  "type": "module",
+  "scripts": {
+    "dev": "quasar dev",
+    "build": "quasar build && tsc",
+    "preview": "vite preview --outDir=dist/spa",
+    "tsc": "vue-tsc --noEmit --project tsconfig.vue-tsc.json",
+    "lint": "eslint . --fix --ignore-path .gitignore"
+  },
+  "keywords": [
+    "nodejs",
+    "full-stack",
+    "workflow-engine",
+    "vue3",
+    "ioc",
+    "cabloy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cabloy/cabloy-front.git"
+  },
+  "homepage": "https://github.com/cabloy/cabloy-front#readme",
+  "bugs": {
+    "url": "https://github.com/cabloy/cabloy-front/issues"
+  },
+  "dependencies": {
+    "@cabloy/front": "^5.0.48",
+    "@quasar/extras": "^1.16.11",
+    "quasar": "^2.16.4",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@cabloy/lint": "^4.0.10",
+    "@quasar/app-vite": "2.0.0-beta.14",
+    "@types/node": "^20.12.12",
+    "autoprefixer": "^10.4.19",
+    "quasar-app-extension-cabloy": "^1.1.38",
+    "typescript": "^5.4.5",
+    "vue-tsc": "^1.8.27"
+  },
+  "license": "MIT",
+  "gitHead": "7842161a0cf5f0fba1f816be4d238b70a43a2c5a"
+}
